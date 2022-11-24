@@ -2,7 +2,8 @@
   "name": "kroger-api-wrapper",
   "version": "1.0.3",
   "description": "A simple wrapper for the Kroger API",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "author": "cj-larsen <[cjl2311@gmail.com] (mailto:cjl2311@gmail.com)>",
   "keywords": [
     "kroger",
