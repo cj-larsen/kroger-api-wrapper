@@ -77,7 +77,11 @@ return locations;
 
 ### Authentication
 
-#### getClientToken
+#### `getClientToken( { ...parameters } )`
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| Paragraph | Text | Title       |
 
 - `clientBase64`
   - `string`
@@ -91,45 +95,35 @@ return locations;
 
 ### Products
 
-#### getProduct
+#### `getProduct( { ...parameters } )`
 
-- `token`
-  - `string`
-  - Your kroger access token.
-- `id`
-  - `string`
-  - The productId or UPC of a Kroger product.
-- `filters`
-  - `object`
-  - An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters).
+| Parameter | Type     | Description                                                                                                                                                     |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `token`   | `string` | Your kroger access token.                                                                                                                                       |
+| `id`      | `string` | The productId or UPC of a Kroger product.                                                                                                                       |
+| `filters` | `object` | An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters). |
 
-#### getProducts
+#### `getProducts( { ...parameters } )`
 
-- `token`
-  - `string`
-  - Your kroger access token.
-- `filters`
-  - `object`
-  - An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters).
+| Parameter | Type     | Description                                                                                                                                                     |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `token`   | `string` | Your kroger access token.                                                                                                                                       |
+| `filters` | `object` | An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters). |
 
 ---
 
 ### Locations
 
-#### getLocation
+#### `getLocation( { ...parameters } )`
 
-- `token`
-  - `string`
-  - Your kroger access token.
-- `locationId`
-  - `string`
-  - The locationId of a Kroger (or affiliate) store.
+| Parameter    | Type     | Description                                      |
+| ------------ | -------- | ------------------------------------------------ |
+| `token`      | `string` | Your kroger access token.                        |
+| `locationId` | `string` | The locationId of a Kroger (or affiliate) store. |
 
-#### getLocations
+#### `getLocations( { ...parameters } )`
 
-- `token`
-  - `string`
-  - Your kroger access token.
-- `filters`
-  - `object`
-  - An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters).
+| Parameter | Type     | Description                                                                                                                                                     |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `token`   | `string` | Your kroger access token.                                                                                                                                       |
+| `filters` | `object` | An object of key value pairs with the name of the filter as the `key` and the filter value as the `value` (see Kroger API documentation for available filters). |
