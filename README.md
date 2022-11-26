@@ -1,5 +1,9 @@
 # Kroger API Wrapper
 
+##### https://github.com/cj-larsen/kroger-api-wrapper
+
+##### https://www.npmjs.com/package/kroger-api-wrapper
+
 ## Description
 
 This package is a wrapper for the production environment of Kroger's OpenAPI service. The package exposes simple functions to perform queries on Kroger services.
