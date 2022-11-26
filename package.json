@@ -11,6 +11,9 @@
     "wrapper"
   ],
   "license": "MIT",
+  "files": [
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/cj-larsen/kroger-api-wrapper"

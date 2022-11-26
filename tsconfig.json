@@ -10,5 +10,5 @@
     "declaration": true
   },
   "compileOnSave": true,
-  "include": ["src", "index.ts"]
+  "include": ["src"]
 }
