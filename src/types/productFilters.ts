@@ -1,5 +1,3 @@
-interface ProductFilters {
+export interface ProductFilters {
   locationId: string;
 }
-
-export default ProductFilters;

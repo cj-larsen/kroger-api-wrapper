@@ -1,9 +1,7 @@
-import ProductFilters from "./productFilters";
+import { ProductFilters } from "./productFilters";
 
-interface ProductParams {
+export interface ProductParams {
   token: string;
   id: string;
   filters?: ProductFilters;
 }
-
-export default ProductParams;

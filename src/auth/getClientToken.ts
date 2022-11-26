@@ -1,9 +1,9 @@
 import networkRequest from "../utils/networkRequest";
 import { TOKEN_URL } from "../resources/urls";
-import ClientTokenParams from "../types/clientTokenParams";
-import NetworkResponse from "../types/networkResponse";
+import { ClientTokenParams } from "../types/clientTokenParams";
+import { NetworkResponse } from "../types/networkResponse";
 
-async function getClientToken(
+export async function getClientToken(
   params: ClientTokenParams
 ): Promise<NetworkResponse> {
   const { clientBase64, scope } = params;
@@ -26,5 +26,3 @@ async function getClientToken(
 
   return response;
 }
-
-export default getClientToken;

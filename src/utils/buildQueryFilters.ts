@@ -1,4 +1,4 @@
-import QueryFilters from "../types/queryFilters";
+import { QueryFilters } from "../types/queryFilters";
 
 function buildQueryFilters(filters: QueryFilters = {}): string {
   let queryFilters: string = "";

@@ -1,6 +1,6 @@
 import axios from "axios";
-import NetworkRequestParams from "../types/networkRequestParams";
-import NetworkResponse from "../types/networkResponse";
+import { NetworkRequestParams } from "../types/networkRequestParams";
+import { NetworkResponse } from "../types/networkResponse";
 
 async function networkRequest(
   params: NetworkRequestParams

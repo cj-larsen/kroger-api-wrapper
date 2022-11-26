@@ -1,4 +1,4 @@
-interface LocationsFilters {
+export interface LocationsFilters {
   "zipCode.near"?: string;
   "latLong.near"?: string;
   "lat.near"?: string;
@@ -8,5 +8,3 @@ interface LocationsFilters {
   chain?: string;
   department?: string;
 }
-
-export default LocationsFilters;

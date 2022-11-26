@@ -1,4 +1,4 @@
-interface ProductsFilters {
+export interface ProductsFilters {
   term?: string;
   locationId?: string;
   productId?: string;
@@ -7,5 +7,3 @@ interface ProductsFilters {
   start?: number;
   limit?: number;
 }
-
-export default ProductsFilters;

@@ -1,4 +1,4 @@
-import NetworkResponse from "../types/networkResponse";
+import { NetworkResponse } from "../types/networkResponse";
 import networkRequest from "./networkRequest";
 
 async function apiRequest(

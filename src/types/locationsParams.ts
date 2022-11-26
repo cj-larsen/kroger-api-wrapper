@@ -1,8 +1,6 @@
-import LocationsFilters from "./locationsFilters";
+import { LocationsFilters } from "./locationsFilters";
 
-interface LocationsParams {
+export interface LocationsParams {
   token: string;
   filters: LocationsFilters;
 }
-
-export default LocationsParams;
