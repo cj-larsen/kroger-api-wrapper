@@ -61,7 +61,7 @@ return products;
 import { getLocations } from 'kroger-api-wrapper/lib';
 
 const token = '<YOUR_ACCESS_TOKEN>';
-const filters = { limit: 20, zipCode: '12345' };
+const filters = { limit: 20, "zipCode.near": '12345' };
 
 const response = await getLocations({
     token,
