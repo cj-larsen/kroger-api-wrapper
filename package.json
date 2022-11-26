@@ -1,6 +1,6 @@
 {
   "name": "kroger-api-wrapper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple wrapper for the Kroger API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
