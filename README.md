@@ -22,7 +22,7 @@ The following API services are wrapped by this package:
 ### Authentication
 
 ```
-import { getClientToken } from 'kroger-api-wrapper';
+import { getClientToken } from 'kroger-api-wrapper/lib';
 
 const clientBase64 = '<YOUR_KROGER_CREDENTIALS>';
 const scope = 'product.compact';
@@ -40,7 +40,7 @@ return token;
 ### Products
 
 ```
-import { getProducts } from 'kroger-api-wrapper';
+import { getProducts } from 'kroger-api-wrapper/lib';
 
 const token = '<YOUR_ACCESS_TOKEN>';
 const filters = { limit: 20, term: 'milk' };
@@ -58,7 +58,7 @@ return products;
 ### Locations
 
 ```
-import { getLocations } from 'kroger-api-wrapper';
+import { getLocations } from 'kroger-api-wrapper/lib';
 
 const token = '<YOUR_ACCESS_TOKEN>';
 const filters = { limit: 20, zipCode: '12345' };
