@@ -1,7 +1,5 @@
-import getClientToken from "./auth/getClientToken";
-import getLocation from "./locations/getLocation";
-import getLocations from "./locations/getLocations";
-import getProduct from "./products/getProduct";
-import getProducts from "./products/getProducts";
-
-export { getClientToken, getLocation, getLocations, getProduct, getProducts };
+export * from "./auth/getClientToken";
+export * from "./locations/getLocation";
+export * from "./locations/getLocations";
+export * from "./products/getProduct";
+export * from "./products/getProducts";
