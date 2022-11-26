@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "files": [
-    "lib/"
+    "lib/**/*"
   ],
   "repository": {
     "type": "git",
